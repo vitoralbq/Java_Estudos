@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import model.*;
 public class DatabaseMock {
+    int incrementKey = 1;
     private final List<model.StudentModel> students = new ArrayList<>();
     private final List<TeacherModel> teachers = new ArrayList<>();
 
