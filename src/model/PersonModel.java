@@ -2,8 +2,8 @@ package model;
 
 public class PersonModel {
     private final long id;
-    int age;
-    String name;
+    private int age;
+    private String name;
 
     public PersonModel(long id,String name, int age){
         this.id = id;
@@ -13,7 +13,10 @@ public class PersonModel {
     public long getId(){
         return id;
     }
-    public interface Identifiable {
-        long getId();
+    public int getAge(){
+        return age;
+    }
+    public String getName(){
+        return name;
     }
 }

@@ -14,9 +14,9 @@ public class StudentModel extends PersonModel{
     @Override
     public String toString() {
         return "StudentModel{id=" + getId() +
-                ", name='" + name + '\'' +
+                ", name='" + getName() + '\'' +
                 ", year=" + year +
-                ", age='" + age + '\'' +
+                ", age='" + getAge() + '\'' +
                 ", shift='" + shift + '\'' +
                 '}';
     }

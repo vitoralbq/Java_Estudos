@@ -12,9 +12,9 @@ public class TeacherModel extends PersonModel {
     @Override
     public String toString() {
         return "StudentModel{id=" + getId() +
-                ", name='" + name + '\'' +
+                ", name='" + getName() + '\'' +
                 ", subject=" + subject +
-                ", age='" + age + '\'' +
+                ", age='" + getAge() + '\'' +
                 ", yearOfExperience='" + yearOfExperience + '\'' +
                 '}';
     }
