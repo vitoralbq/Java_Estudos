@@ -1,8 +1,8 @@
 package model;
 
 public class TeacherModel extends PersonModel {
-        String subject;
-        int yearOfExperience;
+        private String subject;
+        private int yearOfExperience;
 
         public TeacherModel(long id, String name, int age, String subject, int yearOfExperience) {
             super(id, name, age);
@@ -11,10 +11,10 @@ public class TeacherModel extends PersonModel {
         }
     @Override
     public String toString() {
-        return "StudentModel{id=" + id +
-                ", name='" + name + '\'' +
+        return "StudentModel{id=" + getId() +
+                ", name='" + getName() + '\'' +
                 ", subject=" + subject +
-                ", age='" + age + '\'' +
+                ", age='" + getAge() + '\'' +
                 ", yearOfExperience='" + yearOfExperience + '\'' +
                 '}';
     }

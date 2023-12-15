@@ -1,9 +1,9 @@
 package model;
 
 public class PersonModel {
-    public long id;
-    int age;
-    String name;
+    private final long id;
+    private int age;
+    private String name;
 
     public PersonModel(long id,String name, int age){
         this.id = id;
@@ -12,5 +12,11 @@ public class PersonModel {
     }
     public long getId(){
         return id;
+    }
+    public int getAge(){
+        return age;
+    }
+    public String getName(){
+        return name;
     }
 }

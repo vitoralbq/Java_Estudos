@@ -3,8 +3,8 @@ package model;
 //Realocando classes para arquivos diferentes
 public class StudentModel extends PersonModel{
 
-    String shift;
-    String year;
+    private String shift;
+    private String year;
 
     public StudentModel(long id, String name, int age, String shift, String year){
         super(id, name, age);
@@ -13,10 +13,10 @@ public class StudentModel extends PersonModel{
     }
     @Override
     public String toString() {
-        return "StudentModel{id=" + id +
-                ", name='" + name + '\'' +
+        return "StudentModel{id=" + getId() +
+                ", name='" + getName() + '\'' +
                 ", year=" + year +
-                ", age='" + age + '\'' +
+                ", age='" + getAge() + '\'' +
                 ", shift='" + shift + '\'' +
                 '}';
     }
