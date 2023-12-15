@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a53f49d-03f8-44a6-a428-381c247aad5c" name="Changes" comment="Criação de testes">
-      <change beforePath="$PROJECT_DIR$/src/model/PersonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PersonModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/StudentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/StudentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TeacherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TeacherModel.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a53f49d-03f8-44a6-a428-381c247aad5c" name="Changes" comment="Criação de testes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
