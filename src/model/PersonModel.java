@@ -1,7 +1,7 @@
 package model;
 
 public class PersonModel {
-    public long id;
+    private final long id;
     int age;
     String name;
 
@@ -12,5 +12,8 @@ public class PersonModel {
     }
     public long getId(){
         return id;
+    }
+    public interface Identifiable {
+        long getId();
     }
 }
